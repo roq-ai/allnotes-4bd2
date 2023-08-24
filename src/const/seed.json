@@ -1,0 +1,2202 @@
+[
+  {
+    "transaction": [
+      {
+        "id": "b972f438-b141-4f38-b19b-20d4640d5a70",
+        "amount": 53812,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-24T00:17:28.508Z",
+        "created_at": "2023-08-24T03:58:46.632Z",
+        "updated_at": "2023-08-24T09:27:22.713Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcc79745-f274-4f0c-b039-18668de0da63",
+        "amount": 58030,
+        "transaction_type": "Refund",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T19:53:07.259Z",
+        "created_at": "2023-08-24T08:23:04.026Z",
+        "updated_at": "2023-08-23T20:32:37.600Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70a5c41e-65c9-4aad-8c43-83bf6029100f",
+        "amount": 97708,
+        "transaction_type": "Deposit",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T05:27:40.050Z",
+        "created_at": "2023-08-23T16:29:55.232Z",
+        "updated_at": "2023-08-24T09:29:27.759Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c92bd64-3deb-402b-b136-75b21358a0d3",
+        "amount": 16421,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-24T01:00:28.455Z",
+        "created_at": "2023-08-24T07:19:31.354Z",
+        "updated_at": "2023-08-23T14:47:39.042Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7f9c029-83dd-4bc5-9a97-61871bd20910",
+        "amount": 53037,
+        "transaction_type": "Transfer",
+        "transaction_status": "Processing",
+        "transaction_date": "2023-08-23T14:49:08.238Z",
+        "created_at": "2023-08-23T12:05:43.425Z",
+        "updated_at": "2023-08-23T18:49:12.145Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "4766daf7-085a-4c5a-9882-e21bb2f66a77",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-24T02:21:43.385Z",
+        "updated_at": "2023-08-24T10:01:03.114Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df809119-4f55-4cc0-acae-85e1e4ad73bf",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-23T12:39:10.825Z",
+        "updated_at": "2023-08-24T01:40:41.847Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c22677de-11da-4289-8436-85c873f9dfd1",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-23T17:37:49.979Z",
+        "updated_at": "2023-08-24T05:08:34.207Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63d42c52-71ea-43ff-9012-127197b5bff1",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-23T19:10:39.718Z",
+        "updated_at": "2023-08-23T22:04:33.042Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54996b79-8f9f-4000-beff-ca5f74da0467",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-23T14:35:15.419Z",
+        "updated_at": "2023-08-24T06:36:01.329Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "a3eafa61-a379-4fac-8c76-d0c8db38d32d",
+        "text": "Sample text 1",
+        "number": 65137,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T21:47:15.905Z",
+        "updated_at": "2023-08-23T21:25:03.521Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21593c16-803f-4a06-a830-844e6cd02107",
+        "text": "Sample text 2",
+        "number": 54192,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T07:16:36.351Z",
+        "updated_at": "2023-08-23T15:55:02.086Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70c7192f-8799-48a6-a085-5f2fe24b273a",
+        "text": "Sample text 3",
+        "number": 33934,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-23T14:06:15.511Z",
+        "updated_at": "2023-08-24T05:08:28.433Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e8004b6-39a8-4699-813c-89a373078411",
+        "text": "Sample text 4",
+        "number": 41971,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T03:12:44.738Z",
+        "updated_at": "2023-08-23T19:49:11.726Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46587e22-d09a-4ce1-ba80-4e278a22532f",
+        "text": "Sample text 5",
+        "number": 45047,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T21:43:40.506Z",
+        "updated_at": "2023-08-24T10:05:49.306Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5271d605-2624-4fcd-934c-3607d1b071f7",
+        "email": "Jamarcus_Gleason@hotmail.com",
+        "firstName": "Teagan",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19662482",
+        "tenantId": null
+      },
+      {
+        "reference": "9c0c531d-9f36-49e5-806f-35da86ec3b70",
+        "email": "Hipolito_Morar81@yahoo.com",
+        "firstName": "Murray",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27620238",
+        "tenantId": null
+      },
+      {
+        "reference": "22ed7ec5-5484-4e88-a2f1-1499ed915e6e",
+        "email": "Amy_Hilpert@yahoo.com",
+        "firstName": "Floyd",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/940.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ef7f2a0-9339-4b61-a3c6-61c505356fdc",
+        "email": "Julian.Zemlak@hotmail.com",
+        "firstName": "Caden",
+        "lastName": "Weber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4de1687b-7c2a-4d02-b6dd-0afe75d44bc2",
+        "email": "Vernice_Schaefer@gmail.com",
+        "firstName": "George",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/782.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "9d3b1cb4-23c5-4221-bc58-7b64baf83beb",
+        "amount": 63650,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-24T07:24:13.507Z",
+        "created_at": "2023-08-24T09:22:14.895Z",
+        "updated_at": "2023-08-24T09:09:24.870Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "003eb0e3-cd88-46f4-9fc3-99e0e3a706eb",
+        "amount": 59865,
+        "transaction_type": "Refund",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T20:57:19.092Z",
+        "created_at": "2023-08-24T04:13:41.757Z",
+        "updated_at": "2023-08-24T01:50:25.131Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f355d885-fbb7-42ee-8936-38483c731128",
+        "amount": 60243,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-23T19:06:24.523Z",
+        "created_at": "2023-08-23T18:32:58.968Z",
+        "updated_at": "2023-08-23T21:07:37.300Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d372d32-d776-4428-99a4-43d81d9eb5a6",
+        "amount": 55249,
+        "transaction_type": "Payment",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-23T18:03:33.229Z",
+        "created_at": "2023-08-23T16:02:59.785Z",
+        "updated_at": "2023-08-23T16:54:41.253Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aded87b-21dd-47e2-9430-0125badce647",
+        "amount": 95684,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Processing",
+        "transaction_date": "2023-08-23T23:08:49.298Z",
+        "created_at": "2023-08-24T05:14:29.994Z",
+        "updated_at": "2023-08-24T08:01:47.058Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "fc0ef326-15d5-4119-8caa-6479d8197e5a",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-24T07:41:09.755Z",
+        "updated_at": "2023-08-23T14:28:19.318Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dd0808b-466d-477c-9b40-dfc94027fe36",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-23T16:46:25.744Z",
+        "updated_at": "2023-08-23T11:32:10.582Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e05a4fe-05db-4426-996a-fbaeabffcee5",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T01:31:24.188Z",
+        "updated_at": "2023-08-23T15:58:39.530Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed6ff0ce-3e1d-41f6-8788-bbfd306abf41",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-23T12:53:54.404Z",
+        "updated_at": "2023-08-23T20:08:30.837Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "284b8e8a-7894-45b3-86ff-841e558f3381",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-24T04:19:57.383Z",
+        "updated_at": "2023-08-23T15:57:44.433Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "93c9c699-eaec-4977-bcbe-86116f817ee8",
+        "text": "Sample text 1",
+        "number": 62481,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-24T07:47:09.685Z",
+        "updated_at": "2023-08-23T15:32:55.395Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed2bc763-3f47-4a00-9a1d-2d478a6add10",
+        "text": "Sample text 2",
+        "number": 52990,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-23T13:08:57.249Z",
+        "updated_at": "2023-08-24T01:09:50.694Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5f97075-a66f-49fc-85c5-87c2359d1ede",
+        "text": "Sample text 3",
+        "number": 75805,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-23T16:33:43.048Z",
+        "updated_at": "2023-08-24T08:01:38.519Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6682cf01-70c5-4539-ae70-fb90bd302fff",
+        "text": "Sample text 4",
+        "number": 23485,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:10:37.201Z",
+        "updated_at": "2023-08-24T04:37:32.803Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55a4156b-3a0e-45e2-9f37-cfbfe00a9e4a",
+        "text": "Sample text 5",
+        "number": 89287,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T19:21:36.194Z",
+        "updated_at": "2023-08-24T01:47:03.171Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ed40ad04-3470-4f16-94a0-a5cfa56ee408",
+        "email": "Virgie10@gmail.com",
+        "firstName": "Kimberly",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72245675",
+        "tenantId": null
+      },
+      {
+        "reference": "e19321b3-3f6b-44bb-bc46-55ba9a86655b",
+        "email": "Kattie93@yahoo.com",
+        "firstName": "Kaden",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a27497a3-d618-41a2-92dd-ca897af2dfe0",
+        "email": "Deondre_Borer@hotmail.com",
+        "firstName": "Oscar",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90634320",
+        "tenantId": null
+      },
+      {
+        "reference": "c8bde297-5472-4b81-a8cf-6d6d460f5d4b",
+        "email": "Wilhelm.Nikolaus59@yahoo.com",
+        "firstName": "Wilber",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "069cdcde-9255-4995-b4b1-70689f36c04a",
+        "email": "Caleb_King17@hotmail.com",
+        "firstName": "Chelsey",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77467235",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "73c140d1-c690-458d-8484-d0c44f464be7",
+        "amount": 17311,
+        "transaction_type": "Purchase",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T21:40:57.261Z",
+        "created_at": "2023-08-23T13:03:45.312Z",
+        "updated_at": "2023-08-24T04:50:44.963Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ed7731-2646-445a-b513-12893a4403d3",
+        "amount": 39027,
+        "transaction_type": "Refund",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T10:47:34.874Z",
+        "created_at": "2023-08-24T04:09:08.377Z",
+        "updated_at": "2023-08-23T18:43:01.461Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d96a976-57f0-410c-bd12-f82b87673da7",
+        "amount": 71897,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T02:02:08.139Z",
+        "created_at": "2023-08-24T05:08:12.458Z",
+        "updated_at": "2023-08-23T23:10:01.539Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "597babaa-f4f9-444a-ab99-cf6c7743c7ed",
+        "amount": 5529,
+        "transaction_type": "Payment",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-23T18:39:24.086Z",
+        "created_at": "2023-08-24T07:37:44.215Z",
+        "updated_at": "2023-08-23T19:46:17.362Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a506c832-e83e-4238-8642-9d465021d4e3",
+        "amount": 28482,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Refunded",
+        "transaction_date": "2023-08-24T05:44:46.270Z",
+        "created_at": "2023-08-24T09:17:01.280Z",
+        "updated_at": "2023-08-23T19:16:33.839Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "7f8623b3-7f97-4952-a392-6f76e3984c64",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "abc123",
+        "created_at": "2023-08-23T19:52:34.727Z",
+        "updated_at": "2023-08-23T12:00:56.658Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2f6ad92-f816-4829-bfba-41c78779f49d",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "def456",
+        "created_at": "2023-08-23T10:46:25.909Z",
+        "updated_at": "2023-08-23T18:52:18.947Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e5942d3-980b-44a7-92d3-24b82773b5bb",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "ghi789",
+        "created_at": "2023-08-23T17:27:45.105Z",
+        "updated_at": "2023-08-23T22:28:52.550Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a41b5bb0-fdb3-4c5d-875a-53e440f00c76",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "jkl012",
+        "created_at": "2023-08-24T08:17:04.370Z",
+        "updated_at": "2023-08-24T08:43:23.163Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d8dafb7-b820-4e34-ad4e-d7b4ff8703ce",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "mno345",
+        "created_at": "2023-08-23T16:18:13.630Z",
+        "updated_at": "2023-08-24T08:45:22.524Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "c1f5d88d-1f52-4902-9e2b-f99b075e9bef",
+        "text": "Lorem ipsum dolor sit amet",
+        "number": 62694,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-24T03:52:34.837Z",
+        "updated_at": "2023-08-24T08:41:29.311Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7cd682e-fdda-485b-9291-1ac9288f8b7b",
+        "text": "Consectetur adipiscing elit",
+        "number": 88475,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-23T13:51:41.522Z",
+        "updated_at": "2023-08-23T14:57:42.302Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71c676b6-50de-4406-9b87-4f533d40fee9",
+        "text": "Sed do eiusmod tempor incididunt",
+        "number": 21327,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-24T09:17:04.983Z",
+        "updated_at": "2023-08-23T14:50:09.115Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dedaf0d8-af17-4d49-9333-92a32eb22e7b",
+        "text": "Ut labore et dolore magna aliqua",
+        "number": 84241,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T00:55:48.279Z",
+        "updated_at": "2023-08-23T21:55:13.106Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5451fa95-655c-4b83-8506-6a42f26d9253",
+        "text": "Ut enim ad minim veniam",
+        "number": 9257,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T15:14:35.340Z",
+        "updated_at": "2023-08-23T16:23:39.398Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e8844b5b-f6a0-4e4f-a201-d18df43644e1",
+        "email": "Willow.Crona@hotmail.com",
+        "firstName": "Dennis",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9356434",
+        "tenantId": null
+      },
+      {
+        "reference": "425a6b1e-19d6-4b2e-9f57-524a53fc0887",
+        "email": "Devonte_Price30@hotmail.com",
+        "firstName": "Nicolette",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46699105",
+        "tenantId": null
+      },
+      {
+        "reference": "52080e8b-8c3c-4131-8842-6b2bb454fc4c",
+        "email": "Julian.Hintz@hotmail.com",
+        "firstName": "Haleigh",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1085.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b99b9040-dfed-4d75-a834-00246fac6e57",
+        "email": "Armand_Barrows68@gmail.com",
+        "firstName": "Ceasar",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27911192",
+        "tenantId": null
+      },
+      {
+        "reference": "a24d6f17-f01f-4fca-879c-36ff5c00a9cb",
+        "email": "Rosario.Gulgowski@hotmail.com",
+        "firstName": "Lisandro",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15851211",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "2fbacea8-0d22-4ea1-891e-810e0f932e48",
+        "amount": 6419,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-24T05:04:54.755Z",
+        "created_at": "2023-08-23T18:10:54.936Z",
+        "updated_at": "2023-08-23T22:44:20.832Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cfa4d3e-5f19-4471-a785-6106bf25c914",
+        "amount": 22299,
+        "transaction_type": "Sale",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T15:43:40.995Z",
+        "created_at": "2023-08-24T04:22:06.008Z",
+        "updated_at": "2023-08-23T11:11:13.817Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dc67a7c-1b30-48b5-9d0b-b2f53a058349",
+        "amount": 79520,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-23T23:43:15.399Z",
+        "created_at": "2023-08-23T23:28:07.765Z",
+        "updated_at": "2023-08-23T13:51:17.600Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57d2ca3f-6aab-4655-b409-0ca080d3bf34",
+        "amount": 20502,
+        "transaction_type": "Refund",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-23T10:52:45.666Z",
+        "created_at": "2023-08-23T18:28:40.101Z",
+        "updated_at": "2023-08-23T17:50:11.779Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "294b9b87-c8e1-4c5a-91dd-6e41d59057b3",
+        "amount": 4386,
+        "transaction_type": "Payment",
+        "transaction_status": "Refunded",
+        "transaction_date": "2023-08-23T17:57:04.924Z",
+        "created_at": "2023-08-23T22:52:11.706Z",
+        "updated_at": "2023-08-24T06:44:48.324Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "638bf0bd-da9d-45a2-b20a-1947f7f7d0b8",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-23T23:20:56.453Z",
+        "updated_at": "2023-08-24T04:11:32.247Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e72fd5-2eb4-4ecb-8b00-9cdd0f635b8b",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-24T00:01:30.515Z",
+        "updated_at": "2023-08-24T06:35:01.518Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9355dcd-db1d-4953-835f-f39a5034fecd",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T05:23:24.740Z",
+        "updated_at": "2023-08-24T02:02:07.469Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e54a7c2-0304-48db-ba51-dc9a1c8d6c60",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-23T15:01:11.066Z",
+        "updated_at": "2023-08-23T21:09:45.188Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "937f454c-271e-4ada-b79b-66509f9c8eb3",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Contractor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-23T12:58:41.942Z",
+        "updated_at": "2023-08-23T14:53:13.888Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "e0b49cd9-6efa-44aa-9cb8-0aedef509283",
+        "text": "Sample text 1",
+        "number": 25694,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T21:10:51.931Z",
+        "updated_at": "2023-08-23T12:23:31.618Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ab55eed-6528-41ec-a258-608bdcdea126",
+        "text": "Sample text 2",
+        "number": 9721,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T01:19:08.956Z",
+        "updated_at": "2023-08-23T10:50:52.162Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8631f8b2-1e1d-4519-8a41-d22af24df8bb",
+        "text": "Sample text 3",
+        "number": 58640,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-23T18:26:11.871Z",
+        "updated_at": "2023-08-23T12:20:46.982Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eb5038e-7f25-4bee-9215-475cb6e33d67",
+        "text": "Sample text 4",
+        "number": 69526,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T01:54:01.063Z",
+        "updated_at": "2023-08-24T01:42:12.830Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef5d5f0b-4ca7-4cfa-9055-081d8197997f",
+        "text": "Sample text 5",
+        "number": 92898,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T21:35:33.210Z",
+        "updated_at": "2023-08-24T07:33:21.858Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a7bad992-5951-4f51-8b8d-5a2ffe3fe69f",
+        "email": "Rossie_Schoen@yahoo.com",
+        "firstName": "Alexandrea",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57659860",
+        "tenantId": null
+      },
+      {
+        "reference": "70967099-c95f-4b0c-bc26-fda1d72028e0",
+        "email": "Treva29@gmail.com",
+        "firstName": "Bertram",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86884749",
+        "tenantId": null
+      },
+      {
+        "reference": "7ffa5d25-d7a5-4de6-82c2-b5b8ef45d5f5",
+        "email": "Rosanna_Koepp10@yahoo.com",
+        "firstName": "Susan",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31cfe3c6-959c-4a24-9f94-cb84f7ef17dc",
+        "email": "Stephany65@hotmail.com",
+        "firstName": "Elmore",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/831.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2fccd1c4-0077-4bbb-8311-683fa25ec505",
+        "email": "Idell16@yahoo.com",
+        "firstName": "Alexander",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/138.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "9dd94189-d243-4ef1-a424-adb409403256",
+        "amount": 66429,
+        "transaction_type": "Purchase",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-24T04:48:50.959Z",
+        "created_at": "2023-08-24T06:36:48.224Z",
+        "updated_at": "2023-08-23T20:03:38.246Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "958fe352-eb9a-43c3-aadc-bd431cb26de7",
+        "amount": 15868,
+        "transaction_type": "Deposit",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T15:32:44.797Z",
+        "created_at": "2023-08-23T21:03:42.931Z",
+        "updated_at": "2023-08-24T04:18:50.698Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cb0cc9b-9579-466d-be76-4311861447e9",
+        "amount": 75746,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-24T07:47:58.677Z",
+        "created_at": "2023-08-24T01:28:15.195Z",
+        "updated_at": "2023-08-24T00:25:15.332Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "561e78b9-133d-4629-af8b-60982c07c14c",
+        "amount": 73463,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T04:21:54.736Z",
+        "created_at": "2023-08-24T04:31:51.354Z",
+        "updated_at": "2023-08-24T06:00:47.270Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "582fc9c5-acd4-47aa-8ba1-054e79d7547a",
+        "amount": 82411,
+        "transaction_type": "Payment",
+        "transaction_status": "Refunded",
+        "transaction_date": "2023-08-24T09:32:48.253Z",
+        "created_at": "2023-08-23T23:43:41.493Z",
+        "updated_at": "2023-08-23T21:16:11.459Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "be2a734b-1065-4e46-a0f7-080818add779",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-23T12:07:55.809Z",
+        "updated_at": "2023-08-23T11:26:30.021Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68bb33d2-69a6-496f-8647-233bfdde7fa1",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-24T01:14:27.361Z",
+        "updated_at": "2023-08-24T03:22:57.831Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38837758-6059-4854-bc6f-c8eb54147db5",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T09:18:04.432Z",
+        "updated_at": "2023-08-23T13:39:59.947Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b085b1ad-81da-4e3e-a4a7-1fb8e8090351",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-23T14:46:24.357Z",
+        "updated_at": "2023-08-24T09:31:53.178Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc0aec36-1466-4801-98c7-90c5960a8270",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Consultant",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-23T11:23:28.594Z",
+        "updated_at": "2023-08-24T05:42:12.899Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "f4c4f711-50ae-477f-beb6-5c232f533af6",
+        "text": "Sample text 1",
+        "number": 76468,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T21:19:34.499Z",
+        "updated_at": "2023-08-24T03:15:02.522Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11ecd43e-cf3a-433a-9e43-f2efd61a58d1",
+        "text": "Sample text 2",
+        "number": 82239,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T08:40:57.859Z",
+        "updated_at": "2023-08-23T23:46:49.769Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "872753ac-52b6-4a9a-8393-86b5bcba698c",
+        "text": "Sample text 3",
+        "number": 58134,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-23T22:12:32.965Z",
+        "updated_at": "2023-08-23T15:11:44.917Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a07d0eae-cdd7-4f77-9205-78f4d46ee832",
+        "text": "Sample text 4",
+        "number": 64991,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-23T22:15:50.183Z",
+        "updated_at": "2023-08-23T15:21:00.060Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb43c7aa-5190-4fee-9c13-4223dda7d284",
+        "text": "Sample text 5",
+        "number": 84009,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T19:48:24.984Z",
+        "updated_at": "2023-08-23T14:50:48.817Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51cee0e8-92e8-4cd1-8af1-690e06bee568",
+        "email": "Hillary_Lynch19@hotmail.com",
+        "firstName": "Randy",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32976531",
+        "tenantId": null
+      },
+      {
+        "reference": "ad2bdb55-e2a6-4fa6-b190-197774472b9a",
+        "email": "Muhammad.Schiller@yahoo.com",
+        "firstName": "Duane",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/495.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d41374c-28f3-433e-9307-b1ed65bd01db",
+        "email": "Clay35@hotmail.com",
+        "firstName": "Abdullah",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/281.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7db2813-b443-45ee-a834-68eddbd87d1c",
+        "email": "Koby_Beahan@hotmail.com",
+        "firstName": "Stephany",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0f602c4-1329-4b30-8f7a-a4538de7bb21",
+        "email": "Shawna70@yahoo.com",
+        "firstName": "Burnice",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "782ca359-dbf4-4420-8456-b123b7a237db",
+        "amount": 45235,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T23:06:24.906Z",
+        "created_at": "2023-08-24T08:51:59.225Z",
+        "updated_at": "2023-08-24T05:14:18.885Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17bf7982-4b92-4e90-8daf-d983a41a53d4",
+        "amount": 69880,
+        "transaction_type": "Refund",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T20:51:15.136Z",
+        "created_at": "2023-08-24T06:14:58.394Z",
+        "updated_at": "2023-08-23T21:53:37.473Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c840e941-6d13-4be9-a4ad-3a77b495a3e5",
+        "amount": 47286,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T06:39:25.583Z",
+        "created_at": "2023-08-23T23:12:59.681Z",
+        "updated_at": "2023-08-23T16:28:05.127Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ed44f2-bdc7-4653-b786-8a62fe1e167d",
+        "amount": 96461,
+        "transaction_type": "Payment",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-23T22:00:18.670Z",
+        "created_at": "2023-08-24T03:02:06.745Z",
+        "updated_at": "2023-08-24T02:00:40.559Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a76ccfee-7286-42a7-af8b-787f5a7facec",
+        "amount": 13409,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Processing",
+        "transaction_date": "2023-08-23T22:47:18.049Z",
+        "created_at": "2023-08-23T10:29:40.443Z",
+        "updated_at": "2023-08-23T10:50:02.032Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "da58a92e-10cb-4a20-a578-603c60bd596c",
+        "invited_email": "john.doe@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-24T00:06:22.643Z",
+        "updated_at": "2023-08-24T00:57:38.023Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a8dfa44-3d65-45f7-8304-ab7aeacb0097",
+        "invited_email": "jane.smith@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-24T03:51:46.491Z",
+        "updated_at": "2023-08-24T06:12:16.602Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c6f8deb-c84a-4de1-96c9-2b09a3594e5d",
+        "invited_email": "michael.brown@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T08:13:01.710Z",
+        "updated_at": "2023-08-24T04:01:24.645Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1a104cc-d3eb-467d-ad86-4fddb3b26030",
+        "invited_email": "sarah.jones@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-24T05:56:39.532Z",
+        "updated_at": "2023-08-23T10:33:48.876Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6508f36-f0ea-4697-adf8-1b8433fd5fcf",
+        "invited_email": "robert.wilson@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-23T15:43:12.500Z",
+        "updated_at": "2023-08-24T01:54:01.308Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "74fcedaf-0a5f-43fd-a673-de579c6885a1",
+        "text": "Lorem ipsum dolor sit amet",
+        "number": 65414,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T15:29:35.628Z",
+        "updated_at": "2023-08-23T17:44:54.194Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aa7513b-37c6-4051-8ce0-63a32760932b",
+        "text": "Consectetur adipiscing elit",
+        "number": 45797,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T08:40:51.159Z",
+        "updated_at": "2023-08-24T02:21:09.490Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9132121-4e87-4b57-bf84-575f71bb8cc9",
+        "text": "Sed do eiusmod tempor incididunt",
+        "number": 43467,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-24T05:51:22.678Z",
+        "updated_at": "2023-08-24T07:30:30.134Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bebf6ef6-e291-4e18-89aa-a74b318b82bd",
+        "text": "Ut labore et dolore magna aliqua",
+        "number": 65620,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-23T19:38:17.844Z",
+        "updated_at": "2023-08-23T11:46:13.844Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c7f6048-3d99-465b-a2fd-978cebe7f5a2",
+        "text": "Ut enim ad minim veniam",
+        "number": 93556,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T22:16:49.256Z",
+        "updated_at": "2023-08-23T13:44:41.481Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e88ffb05-fb07-467e-aa99-51a7599f95cf",
+        "email": "Brandi98@gmail.com",
+        "firstName": "Madalyn",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74790981",
+        "tenantId": null
+      },
+      {
+        "reference": "cf32ef11-32e4-46ef-bf1c-d06b29797222",
+        "email": "Sibyl.Hand-Thiel@gmail.com",
+        "firstName": "Jon",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34474472",
+        "tenantId": null
+      },
+      {
+        "reference": "727555d7-9ace-406b-9bfe-6ba26fd2888c",
+        "email": "Martine.Little87@gmail.com",
+        "firstName": "Johnson",
+        "lastName": "Kulas-VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/31.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b97fc2b-913c-4317-80f3-18c6727755d2",
+        "email": "Jaquan_Terry90@hotmail.com",
+        "firstName": "Katharina",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15691245",
+        "tenantId": null
+      },
+      {
+        "reference": "e3e0eb00-b851-40a2-b95a-af2b510b45d6",
+        "email": "Sheila_Cummings@hotmail.com",
+        "firstName": "Eliezer",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46000180",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "813fd26d-1092-454e-bf22-e3a46d060472",
+        "amount": 78692,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T12:20:29.230Z",
+        "created_at": "2023-08-23T19:50:23.963Z",
+        "updated_at": "2023-08-24T04:06:19.143Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b82cf76-df00-4f8a-a28e-d98b27a7f6d8",
+        "amount": 86979,
+        "transaction_type": "Refund",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-24T01:33:17.379Z",
+        "created_at": "2023-08-24T03:31:25.362Z",
+        "updated_at": "2023-08-23T18:32:29.758Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c3a5ca6-eed4-4c4d-8381-ee6a9a4a5ea9",
+        "amount": 38900,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T06:49:43.667Z",
+        "created_at": "2023-08-23T11:10:57.427Z",
+        "updated_at": "2023-08-23T22:49:32.740Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b724d341-2453-4ccf-98f4-a7e287083624",
+        "amount": 47816,
+        "transaction_type": "Payment",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-23T13:07:17.998Z",
+        "created_at": "2023-08-23T16:08:51.041Z",
+        "updated_at": "2023-08-24T06:27:36.657Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac66aa16-8aab-4f26-9c91-8b0b2384bfa1",
+        "amount": 96095,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Processing",
+        "transaction_date": "2023-08-24T02:10:31.512Z",
+        "created_at": "2023-08-24T03:37:11.150Z",
+        "updated_at": "2023-08-23T16:54:44.363Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "22f7898c-3b25-4cb7-80a6-acbd3caf6995",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-24T10:06:51.063Z",
+        "updated_at": "2023-08-24T10:09:57.301Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "415ee333-3bea-453b-adfd-2c13b86a4efd",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-23T13:56:04.548Z",
+        "updated_at": "2023-08-23T12:46:34.264Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e691cd1-0297-4482-a85a-7da805aa194b",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T08:49:57.078Z",
+        "updated_at": "2023-08-24T05:18:04.837Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39b75518-bdc5-4f81-bfc9-e37af94a5c54",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-23T21:10:37.104Z",
+        "updated_at": "2023-08-23T12:33:20.480Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "926d6457-8efc-4ebe-ba38-8ab21bf860e6",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-23T16:14:13.704Z",
+        "updated_at": "2023-08-23T15:10:20.064Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "91689953-6c97-419c-a81f-22cbb9c8e34c",
+        "text": "Lorem ipsum dolor sit amet",
+        "number": 60006,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T23:22:32.485Z",
+        "updated_at": "2023-08-24T09:54:08.149Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d516c5c-0618-4c19-a10c-4e1bd172b719",
+        "text": "Consectetur adipiscing elit",
+        "number": 9523,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-23T20:30:18.388Z",
+        "updated_at": "2023-08-23T14:28:50.406Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03e2f58c-8d75-4d43-a15e-f0a6aa82c5c6",
+        "text": "Sed do eiusmod tempor incididunt",
+        "number": 10801,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-24T08:11:37.783Z",
+        "updated_at": "2023-08-24T03:51:44.187Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74071bb3-5a07-406f-9f88-4dc5d1c8b733",
+        "text": "Ut labore et dolore magna aliqua",
+        "number": 20262,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:32:54.500Z",
+        "updated_at": "2023-08-23T13:13:30.064Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c9d2122-82f2-4636-9c9c-4295475ec38d",
+        "text": "Ut enim ad minim veniam",
+        "number": 7478,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T22:52:56.567Z",
+        "updated_at": "2023-08-23T18:33:12.087Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d1a57ad0-ccb4-479a-9923-28400d0024bf",
+        "email": "Ervin_McKenzie@hotmail.com",
+        "firstName": "Audreanne",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20335442",
+        "tenantId": null
+      },
+      {
+        "reference": "a2ef98ca-f505-40ff-b99b-3ae6de58f1f5",
+        "email": "Antonia72@yahoo.com",
+        "firstName": "Lou",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6887dd85-853c-4109-b8f2-d24aea28926e",
+        "email": "Eleanora94@hotmail.com",
+        "firstName": "Earlene",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57147048",
+        "tenantId": null
+      },
+      {
+        "reference": "afe1de35-f45e-4e96-a64b-3e31e67a648f",
+        "email": "Kody.Dare@gmail.com",
+        "firstName": "Noemi",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c00b695-5f18-432c-a323-b0667e650e76",
+        "email": "Abraham83@gmail.com",
+        "firstName": "Kayla",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1081.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "b761b467-b4e9-403c-819b-b78fb2612e3d",
+        "amount": 32828,
+        "transaction_type": "Purchase",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-24T07:03:37.134Z",
+        "created_at": "2023-08-23T23:31:38.217Z",
+        "updated_at": "2023-08-24T09:25:52.493Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f4c8737-abe2-4fa4-a62e-13fee57ea7dc",
+        "amount": 17766,
+        "transaction_type": "Payment",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T13:35:20.955Z",
+        "created_at": "2023-08-24T09:08:55.725Z",
+        "updated_at": "2023-08-24T09:59:03.865Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5f5f511-6ca8-4fa2-89bf-00e5f48219c0",
+        "amount": 30902,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T05:59:08.441Z",
+        "created_at": "2023-08-24T06:46:14.973Z",
+        "updated_at": "2023-08-24T04:29:56.879Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a40cf656-24dd-44e6-98da-6f27a7cafd1f",
+        "amount": 72826,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-24T04:47:01.118Z",
+        "created_at": "2023-08-23T21:31:26.344Z",
+        "updated_at": "2023-08-23T17:39:10.483Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8509e97f-bed7-47dc-ba87-310a7ef9914f",
+        "amount": 45241,
+        "transaction_type": "Deposit",
+        "transaction_status": "Refunded",
+        "transaction_date": "2023-08-23T21:27:04.966Z",
+        "created_at": "2023-08-23T23:03:50.461Z",
+        "updated_at": "2023-08-23T11:07:27.631Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "26b7d63e-f717-460b-ac0e-bd649f43b883",
+        "invited_email": "friend1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABCD1234",
+        "created_at": "2023-08-23T15:58:48.655Z",
+        "updated_at": "2023-08-24T01:21:52.866Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd1013e7-ebab-4e92-a955-058f0cd752d3",
+        "invited_email": "friend2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "EFGH5678",
+        "created_at": "2023-08-23T14:16:05.096Z",
+        "updated_at": "2023-08-23T17:09:14.759Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15bf2b7a-e5e4-4cfa-9e38-0eb7d194c881",
+        "invited_email": "friend3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "IJKL9012",
+        "created_at": "2023-08-23T22:41:36.650Z",
+        "updated_at": "2023-08-24T06:20:25.936Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45d3ac71-237c-4bd7-971c-1d0915d2629a",
+        "invited_email": "friend4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "MNOP3456",
+        "created_at": "2023-08-23T14:18:14.594Z",
+        "updated_at": "2023-08-24T09:39:23.202Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f02d3fb4-c93b-459e-b434-709d67551ad7",
+        "invited_email": "friend5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "QRST7890",
+        "created_at": "2023-08-24T04:25:51.192Z",
+        "updated_at": "2023-08-24T07:39:14.865Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "d946e8ad-03da-42df-8c0b-c1984805917d",
+        "text": "Sample text 1",
+        "number": 88230,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T23:11:02.395Z",
+        "updated_at": "2023-08-23T20:25:24.638Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8d175cd-03b2-426f-8cae-444d3a70bd77",
+        "text": "Sample text 2",
+        "number": 4489,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T05:14:55.170Z",
+        "updated_at": "2023-08-23T13:13:13.139Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "576225d9-8c54-4092-a7f1-81937cbb47e9",
+        "text": "Sample text 3",
+        "number": 5604,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-24T02:13:07.874Z",
+        "updated_at": "2023-08-24T08:32:24.742Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec7dd5a5-c624-4076-9d70-e3dee68aba86",
+        "text": "Sample text 4",
+        "number": 76564,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T02:53:08.280Z",
+        "updated_at": "2023-08-24T10:05:33.293Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "035816a1-1c0e-4d44-9b44-9ed18f5919a4",
+        "text": "Sample text 5",
+        "number": 89911,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T09:43:50.359Z",
+        "updated_at": "2023-08-23T19:44:39.945Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "92cb5696-cbf1-4e23-8da9-8e11ed9f3766",
+        "email": "Berenice_Dare1@gmail.com",
+        "firstName": "Damion",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "883c3995-89a4-4d5c-8693-b1e7094796d3",
+        "email": "Aiyana38@yahoo.com",
+        "firstName": "Kendall",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/952.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d00d4dd-ddc1-4b6d-bb28-69c84d99e697",
+        "email": "Rubye.Schmeler@hotmail.com",
+        "firstName": "Adam",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4431c00b-a15b-4c21-b3f1-d1d7c2d2fc61",
+        "email": "Heather.Bednar35@yahoo.com",
+        "firstName": "Aleen",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78087509",
+        "tenantId": null
+      },
+      {
+        "reference": "9a6a201a-3d56-43e8-bb35-c0949717a536",
+        "email": "Kurtis_Krajcik@hotmail.com",
+        "firstName": "Amari",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "46f08905-5140-4613-996f-d861362985b8",
+        "amount": 44497,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-23T12:40:27.274Z",
+        "created_at": "2023-08-24T07:01:01.770Z",
+        "updated_at": "2023-08-23T14:30:38.849Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b32bc7-e7f4-4e7d-bcc0-bdf935ce2d35",
+        "amount": 73270,
+        "transaction_type": "Sale",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T19:57:46.272Z",
+        "created_at": "2023-08-23T15:44:10.021Z",
+        "updated_at": "2023-08-24T08:36:21.032Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "173848ad-b655-4488-958b-ed98aca79cc2",
+        "amount": 48563,
+        "transaction_type": "Refund",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-24T05:23:01.543Z",
+        "created_at": "2023-08-23T10:31:02.235Z",
+        "updated_at": "2023-08-24T01:28:10.661Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d51a325c-0b1b-48ab-851b-8d3a5041ae1e",
+        "amount": 98986,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-24T08:25:50.506Z",
+        "created_at": "2023-08-23T12:10:02.380Z",
+        "updated_at": "2023-08-23T14:17:53.685Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9732ebdc-ecee-495a-b008-87ed7faf05ed",
+        "amount": 33719,
+        "transaction_type": "Payment",
+        "transaction_status": "Refunded",
+        "transaction_date": "2023-08-24T02:10:15.299Z",
+        "created_at": "2023-08-23T10:24:39.034Z",
+        "updated_at": "2023-08-23T23:58:30.508Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "70c55039-5f72-47b6-9705-ec97e0acd32b",
+        "invited_email": "invitee1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-24T01:56:36.080Z",
+        "updated_at": "2023-08-23T11:20:54.845Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f937057-9cb4-41e2-8801-8415f415fc88",
+        "invited_email": "invitee2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "XYZ789",
+        "created_at": "2023-08-24T03:27:05.359Z",
+        "updated_at": "2023-08-23T21:26:20.943Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "516af85b-2e45-4d75-b430-119a204f3037",
+        "invited_email": "invitee3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "123456",
+        "created_at": "2023-08-24T09:11:33.819Z",
+        "updated_at": "2023-08-24T00:16:53.133Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91457563-afc3-41f4-8097-be8644b5a40c",
+        "invited_email": "invitee4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "789ABC",
+        "created_at": "2023-08-23T13:17:29.871Z",
+        "updated_at": "2023-08-24T06:49:02.090Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffffd707-9936-43a7-94ee-ff325cecd4c7",
+        "invited_email": "invitee5@example.com",
+        "status": "Cancelled",
+        "role": "Consultant",
+        "invitation_code": "456XYZ",
+        "created_at": "2023-08-23T18:38:57.189Z",
+        "updated_at": "2023-08-23T22:35:03.397Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "007430d0-f16c-483f-b79d-aee4d22eeef8",
+        "text": "Lorem ipsum dolor sit amet",
+        "number": 3843,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-23T21:07:02.776Z",
+        "updated_at": "2023-08-23T16:26:48.594Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c223be91-52eb-401b-b850-650e884b7721",
+        "text": "Consectetur adipiscing elit",
+        "number": 56499,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-23T12:00:43.690Z",
+        "updated_at": "2023-08-24T03:59:17.413Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2187ec65-905e-437f-ac3f-5a9da2f2dd42",
+        "text": "Sed do eiusmod tempor incididunt",
+        "number": 55634,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-24T03:53:50.835Z",
+        "updated_at": "2023-08-24T04:40:37.413Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb63793-3654-4ab8-96ac-b958288c5602",
+        "text": "Ut labore et dolore magna aliqua",
+        "number": 86224,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-23T20:31:27.742Z",
+        "updated_at": "2023-08-23T19:12:21.073Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bc1edf8-dcef-4ef8-a5df-ba291733259b",
+        "text": "Ut enim ad minim veniam",
+        "number": 52417,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T07:19:00.944Z",
+        "updated_at": "2023-08-23T22:04:04.327Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dab456ce-1b9f-4fe7-a1a4-7c4e0fc31655",
+        "email": "Ocie49@yahoo.com",
+        "firstName": "Herminia",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74546049",
+        "tenantId": null
+      },
+      {
+        "reference": "44ab0f5a-31ea-40ec-bd1f-b85052e08c23",
+        "email": "Miguel0@gmail.com",
+        "firstName": "Carlotta",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1069.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c450c562-d575-4114-9fc1-76cfae0421f9",
+        "email": "Faustino99@gmail.com",
+        "firstName": "Wilber",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/344.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "741e5f01-2621-43a4-aad5-248d8244ddb8",
+        "email": "Rosetta57@gmail.com",
+        "firstName": "Verna",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11471822",
+        "tenantId": null
+      },
+      {
+        "reference": "0182e263-3516-411b-86c9-34441cd02622",
+        "email": "Newton_Towne0@yahoo.com",
+        "firstName": "Fabiola",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/729.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "transaction": [
+      {
+        "id": "21761bb0-fa4b-403a-bb2e-d75a45ac6a7e",
+        "amount": 88509,
+        "transaction_type": "Purchase",
+        "transaction_status": "Pending",
+        "transaction_date": "2023-08-24T05:45:51.077Z",
+        "created_at": "2023-08-24T02:19:05.080Z",
+        "updated_at": "2023-08-23T15:09:12.231Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24e74c99-ee49-40cf-8c24-478314c29f3a",
+        "amount": 44988,
+        "transaction_type": "Refund",
+        "transaction_status": "Completed",
+        "transaction_date": "2023-08-23T13:32:48.311Z",
+        "created_at": "2023-08-24T03:53:41.027Z",
+        "updated_at": "2023-08-23T20:36:23.011Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cd82745-8526-4753-ba7d-78531ea0d907",
+        "amount": 31240,
+        "transaction_type": "Transfer",
+        "transaction_status": "Failed",
+        "transaction_date": "2023-08-23T20:30:02.339Z",
+        "created_at": "2023-08-23T15:56:13.756Z",
+        "updated_at": "2023-08-23T21:15:57.066Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e777dc0e-e951-4cbe-a897-40805998b099",
+        "amount": 67032,
+        "transaction_type": "Payment",
+        "transaction_status": "Cancelled",
+        "transaction_date": "2023-08-24T06:18:29.045Z",
+        "created_at": "2023-08-24T03:01:33.411Z",
+        "updated_at": "2023-08-23T20:46:44.975Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cda3048-3cfb-413b-bb95-ebc507063a7a",
+        "amount": 69812,
+        "transaction_type": "Withdrawal",
+        "transaction_status": "Processing",
+        "transaction_date": "2023-08-23T13:19:03.088Z",
+        "created_at": "2023-08-24T08:11:20.974Z",
+        "updated_at": "2023-08-24T02:51:02.151Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "f5c48b11-8dd9-423a-b0f5-5db357bf478a",
+        "invited_email": "friend1@example.com",
+        "status": "Pending",
+        "role": "Admin",
+        "invitation_code": "ABC123",
+        "created_at": "2023-08-23T20:54:09.610Z",
+        "updated_at": "2023-08-24T04:34:25.010Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64a6ecb-23d1-401d-8b11-f37623fdda2d",
+        "invited_email": "friend2@example.com",
+        "status": "Accepted",
+        "role": "Manager",
+        "invitation_code": "DEF456",
+        "created_at": "2023-08-23T11:31:10.016Z",
+        "updated_at": "2023-08-23T13:43:34.354Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f19b2a1a-a130-47bd-85b7-22fc6909350f",
+        "invited_email": "friend3@example.com",
+        "status": "Declined",
+        "role": "Employee",
+        "invitation_code": "GHI789",
+        "created_at": "2023-08-24T05:31:38.994Z",
+        "updated_at": "2023-08-23T11:22:38.049Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e8b633b-68f9-4c31-9ed9-8b0f80faaa91",
+        "invited_email": "friend4@example.com",
+        "status": "Expired",
+        "role": "Guest",
+        "invitation_code": "JKL012",
+        "created_at": "2023-08-24T07:41:33.864Z",
+        "updated_at": "2023-08-24T09:38:37.962Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e272967-9523-4fae-9fd6-7cd50e2688d8",
+        "invited_email": "friend5@example.com",
+        "status": "Cancelled",
+        "role": "Supervisor",
+        "invitation_code": "MNO345",
+        "created_at": "2023-08-24T09:19:29.641Z",
+        "updated_at": "2023-08-24T00:31:24.382Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data": [
+      {
+        "id": "c9d12997-3e70-4fff-8e11-2d0fb7a664bf",
+        "text": "Lorem ipsum dolor sit amet",
+        "number": 77686,
+        "type": "Type A",
+        "status": "Active",
+        "created_at": "2023-08-24T08:56:02.197Z",
+        "updated_at": "2023-08-24T05:01:14.782Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f57ad59b-02dc-46a3-85f8-692f9aaa2667",
+        "text": "Consectetur adipiscing elit",
+        "number": 93891,
+        "type": "Type B",
+        "status": "Inactive",
+        "created_at": "2023-08-24T06:29:25.077Z",
+        "updated_at": "2023-08-24T07:48:29.786Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "144e0640-4da4-4173-ae69-ccaa30e61fb0",
+        "text": "Sed do eiusmod tempor incididunt",
+        "number": 17345,
+        "type": "Type C",
+        "status": "Pending",
+        "created_at": "2023-08-23T15:44:09.484Z",
+        "updated_at": "2023-08-23T16:52:59.012Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f2413e6-733f-483f-ad6e-f45e6fe6190d",
+        "text": "Ut labore et dolore magna aliqua",
+        "number": 12864,
+        "type": "Type D",
+        "status": "Completed",
+        "created_at": "2023-08-24T06:36:20.806Z",
+        "updated_at": "2023-08-24T03:16:18.934Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c8f5b59-de76-4c90-94fa-8fee0a5a25ab",
+        "text": "Ut enim ad minim veniam",
+        "number": 26530,
+        "type": "Type E",
+        "status": "Cancelled",
+        "created_at": "2023-08-24T01:25:51.712Z",
+        "updated_at": "2023-08-24T07:02:55.401Z",
+        "business_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "222c505c-bb95-4d24-9916-566892f21708",
+        "email": "Ruthe_Feeney@gmail.com",
+        "firstName": "Jazmyne",
+        "lastName": "Thompson-Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfa986ab-fb99-4e00-8369-064d20594f84",
+        "email": "Bertram_Luettgen71@yahoo.com",
+        "firstName": "Malachi",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54261706",
+        "tenantId": null
+      },
+      {
+        "reference": "3932411c-e376-42bd-a9a3-85cdb9a64676",
+        "email": "Emiliano_Reilly25@yahoo.com",
+        "firstName": "Zoie",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd73ccaf-6c7a-4e78-bedb-7207f96924ce",
+        "email": "Zoe.Bergstrom3@hotmail.com",
+        "firstName": "Blanche",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/800.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4bddb53-3102-45ac-a1d9-a588469bb58f",
+        "email": "Leopold77@hotmail.com",
+        "firstName": "Katrina",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38262298",
+        "tenantId": null
+      }
+    ]
+  }
+]
